@@ -1,7 +1,9 @@
 - name: Jest zbyt zajebiście, pewnie o czymś nie wiemy
-  style: success
+  style: primary
 
 - name: Chujowo, ale stabilnie
+  style: success
+- name: Jest chujowiej niż zwykle
   style: warning
 - name: Zarząd spierdala na bahamy
   style: danger
