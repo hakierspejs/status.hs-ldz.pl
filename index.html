@@ -28,7 +28,7 @@
               <div class="panel panel-{{ site.data.statusy[site.data.awarie.kod].style }}">
                 <div class="panel-heading">
                   <h3 class="panel-title">
-                    {{ site.data.awarie | size | plus: 1 | minus: site.data.awarie.kod }}/{{ site.data.awarie | size | plus: 1 }}:
+                    {{ site.data.awarie | size | minus: 1 | minus: site.data.awarie.kod }}/{{ site.data.awarie | size | plus: 1 }}:
                     {{ site.data.statusy[site.data.awarie.kod].name }}
                   </h3>
                 </div>                
