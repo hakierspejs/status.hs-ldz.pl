@@ -39,40 +39,11 @@
                       <div class="list-group">
 
                         {% for awaria in site.data.awarie.awarie %}
-                          <div class="list-group-item">
-                              <h4 class="list-group-item-heading">
-                                {% if awaria.details_url %}<a href="{{awaria.details_url}}">{% endif %}
-                                  {{ awaria.name }}
-                                {% if awaria.details_url %}</a>{% endif %}
-                                  {% if awaria.details %}
-                                  
-                                  <a href="#"  data-toggle="tooltip" data-placement="bottom" title="{{ awaria.details }} ">
-                                    <i class="fa fa-question-circle"></i>
-                                  </a>
-                                  {% endif %}
-                               
-                                  
-                              </h4>
-                              <p class="list-group-item-text">
-                                  <span class="label label-danger">Not Operational</span>
-                              </p>
-                          </div>
+                          {% include opis_awarii.html kolor="danger" %}
                         {% endfor %}
 
                         {% for awaria in site.data.awarie.dziala %}
-                          <div class="list-group-item">
-                              <h4 class="list-group-item-heading">
-                                  {{ awaria.name }}
-                                  <!--
-                                  <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access website and use site API">
-                                    <i class="fa fa-question-circle"></i>
-                                  </a>
-                                  -->
-                              </h4>
-                              <p class="list-group-item-text">
-                                  <span class="label label-success">Operational</span>
-                              </p>
-                          </div>
+                          {% include opis_awarii.html kolor="success" %}
                         {% endfor %}
 
                       </div>
