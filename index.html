@@ -41,7 +41,9 @@
                         {% for awaria in site.data.awarie.awarie %}
                           <div class="list-group-item">
                               <h4 class="list-group-item-heading">
+                                {% if awaria.details_url %}<a href="{{awaria.details_url}}">{% endif %}
                                   {{ awaria.name }}
+                                {% if awaria.details_url %}</a>{% endif %}
                                   {% if awaria.details %}
                                   
                                   <a href="#"  data-toggle="tooltip" data-placement="bottom" title="{{ awaria.details }} ">
