@@ -1,3 +1,6 @@
+---
+# this is an empty front matter
+---
 <html>
 <head>
 <meta charset="utf-8">
@@ -37,10 +40,10 @@
               <div class="row clearfix">
                   <div class="col-md-12 column">
                       <div class="list-group">
-                        
+                        {% for awaria in site.data.awarie.awarie %}
                           <div class="list-group-item">
                               <h4 class="list-group-item-heading">
-                                  Forum, Grafana i wszystko inne na VMce
+                                  {{ awaria.name }}
                                   <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access website and use site API">
                                     <i class="fa fa-question-circle"></i>
                                   </a>
@@ -49,20 +52,7 @@
                                   <span class="label label-danger">Not Operational</span>
                               </p>
                           </div>
-
-
-                          <div class="list-group-item">
-                              <h4 class="list-group-item-heading">
-                                  Połowa światła w głównym pokoju
-                                  <a href="#"  data-toggle="tooltip" data-placement="bottom" title="Access website and use site API">
-                                    <i class="fa fa-question-circle"></i>
-                                  </a>
-                              </h4>
-                              <p class="list-group-item-text">
-                                  <span class="label label-danger">Not Operational</span>
-                              </p>
-                          </div>
-                         
+                        {% endfor %}
                       </div>
                   </div>
               </div>
