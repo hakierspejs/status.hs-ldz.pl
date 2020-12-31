@@ -8,7 +8,10 @@ awarie:
       na razie brak ETA ;) Nie działa forum, grafana i wszystko inne co działało na vmce."
       details_url: https://t.me/hsl_info/51
     - name: Połowa światła w głównym pokoju
+      details_url: https://t.me/hsl_info/39
 dziala:
     - name: Kibel
+      details_url: https://t.me/hsl_info/37
     - name: Termometr
+      details_url: http://siedziba.hs-ldz.pl:1060/
     - name: Zamek
