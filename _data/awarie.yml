@@ -2,8 +2,8 @@
 kod: 2
 awarie:
     - name: Forum, Grafana i wszystko inne na VMce
-    - details: "Awaria: mamy downtime infrastruktury na hs-ldz.pl. Najprawdopodobniej bootloader się uszkodził w wyniku downtime zewnętrznego storage na VMce podczas apt-get upgrade. Zgłosiliśmy q3kowi z prośbą o ratunek, na razie brak ETA ;) Nie działa forum, grafana i wszystko inne co działało na vmce."
-    - details_url: https://t.me/hsl_info/51
+      details: "Awaria: mamy downtime infrastruktury na hs-ldz.pl. Najprawdopodobniej bootloader się uszkodził w wyniku downtime zewnętrznego storage na VMce podczas apt-get upgrade. Zgłosiliśmy q3kowi z prośbą o ratunek, na razie brak ETA ;) Nie działa forum, grafana i wszystko inne co działało na vmce."
+      details_url: https://t.me/hsl_info/51
     - name: Połowa światła w głównym pokoju
 dziala:
     - name: Kibel
