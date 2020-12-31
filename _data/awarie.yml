@@ -1,3 +1,4 @@
+# 0 = podejrzanie dobrze, 3 = ekstremalnie źle
 kod: 2
 awarie:
     - name: Forum, Grafana i wszystko inne na VMce
