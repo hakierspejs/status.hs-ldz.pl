@@ -39,11 +39,11 @@
                       <div class="list-group">
 
                         {% for awaria in site.data.awarie.awarie %}
-                          {% include opis_awarii.html kolor="danger" %}
+                          {% include opis_awarii.html kolor="danger" opis="Not Operational" %}
                         {% endfor %}
 
                         {% for awaria in site.data.awarie.dziala %}
-                          {% include opis_awarii.html kolor="success" %}
+                          {% include opis_awarii.html kolor="success" opis="Operational" %}
                         {% endfor %}
 
                       </div>
