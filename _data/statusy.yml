@@ -1,8 +1,11 @@
 - name: Jest zbyt zajebiście, więc pewnie o czymś nie wiemy
   style: primary
+  img: zbytdobrze.jpeg
 - name: Chujowo, ale stabilnie
   style: success
+  img: chujowo.gif
 - name: Jest chujowiej niż zwykle
   style: warning
+  img: fine.jpeg
 - name: Zarząd spierdala na Bahamy
   style: danger

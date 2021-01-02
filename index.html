@@ -28,7 +28,11 @@
               <div class="panel panel-{{ site.data.statusy[site.data.awarie.kod].style }}">
                 <div class="panel-heading">
                   <h3 class="panel-title">
-                  {{ site.data.awarie | size | minus: site.data.awarie.kod }}/{{ site.data.awarie | size }}:
+                    {% assign status=site.data.statusy[site.data.awarie.kod] %}
+                    {% if status.img %}
+                        <!-- <img src="img/{{status.img}}"  class="img-responsive img-rounded" style="float: left; max-width: 80px;"  /> -->
+                    {% endif %}
+                    {{ site.data.awarie | size | minus: site.data.awarie.kod }}/{{ site.data.awarie | size }}:
                     {{ site.data.statusy[site.data.awarie.kod].name }}
                   </h3>
                 </div>                
