@@ -1,11 +1,11 @@
 # 0 = podejrzanie dobrze, 3 = ekstremalnie źle
-kod: 2
+kod: 1
 awarie:
     - name: Połowa światła w głównym pokoju
       details_url: https://t.me/hsl_info/39
-    - name: Zamek
-      details_url: https://t.me/hsl_info/59
 dziala:
+    - name: Zamek
+      details_url: https://t.me/hsl_info/64
     - name: Forum, Grafana i wszystko inne na VMce
     - name: Kibel
       details_url: https://t.me/hsl_info/37
