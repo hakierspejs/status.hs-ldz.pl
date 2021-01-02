@@ -3,13 +3,13 @@ kod: 1
 awarie:
     - name: Połowa światła w głównym pokoju
       details_url: https://t.me/hsl_info/39
+    - name: Zamek
+      details_url: https://t.me/hsl_info/59
 dziala:
     - name: Forum, Grafana i wszystko inne na VMce
     - name: Kibel
       details_url: https://t.me/hsl_info/37
     - name: Termometr
       details_url: http://siedziba.hs-ldz.pl:1060/
-    - name: Zamek
-      details_url: https://t.me/hsl_info/31
     - name: Finanse
       details_url: https://lodz.hackerspace.pl/finanse.html
