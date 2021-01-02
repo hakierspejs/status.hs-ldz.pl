@@ -1,5 +1,5 @@
 # 0 = podejrzanie dobrze, 3 = ekstremalnie źle
-kod: 1
+kod: 2
 awarie:
     - name: Połowa światła w głównym pokoju
       details_url: https://t.me/hsl_info/39
