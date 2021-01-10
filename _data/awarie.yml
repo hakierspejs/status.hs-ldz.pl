@@ -1,5 +1,5 @@
 # 0 = podejrzanie dobrze, 3 = ekstremalnie źle
-kod: 1
+kod: 0
 awarie:
 dziala:
     - name: Zamek
@@ -12,5 +12,5 @@ dziala:
       details_url: http://siedziba.hs-ldz.pl:1060/
     - name: Finanse
       details_url: https://lodz.hackerspace.pl/finanse.html
-    - name: Połowa światła w głównym pokoju
-      details_url: https://t.me/hsl_info/39
+    - name: Światło w głównym pokoju
+      details_url: https://t.me/hakierspejs/109486
