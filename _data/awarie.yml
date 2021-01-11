@@ -1,5 +1,5 @@
 # 0 = podejrzanie dobrze, 3 = ekstremalnie źle
-kod: 0
+kod: 1
 awarie:
     - name: Światło w głównym pokoju
       details_url: https://t.me/hakierspejs/109486
