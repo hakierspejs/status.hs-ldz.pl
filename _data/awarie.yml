@@ -1,11 +1,11 @@
 # 0 = podejrzanie dobrze, 3 = ekstremalnie źle
-kod: 1
+kod: 2
 awarie:
     - name: Światło w głównym pokoju
       details_url: https://t.me/hakierspejs/109486
-dziala:
     - name: Forum, Grafana i wszystko inne na VMce
-      details_url: https://t.me/hsl_info/101
+      details_url: https://t.me/hsl_info/133
+dziala:
     - name: Zamek
       details_url: https://t.me/hsl_info/64
     - name: Kibel
