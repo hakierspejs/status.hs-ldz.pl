@@ -1,6 +1,8 @@
 # 0 = podejrzanie dobrze, 3 = ekstremalnie źle
 kod: 2
 awarie:
+    - name: Archiwum listy mailingowej
+      details_url: https://archiwum.hs-ldz.pl
 dziala:
     - name: Forum, Grafana i wszystko inne na VMce
       details_url: https://t.me/hsl_info/153
